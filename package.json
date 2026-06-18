@@ -1,0 +1,22 @@
+{
+  "name": "max-bot-1001-zabor",
+  "version": "1.0.0",
+  "description": "MAX/Telegram quiz-bot for 1001 Zabor with amoCRM integration",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
